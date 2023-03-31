@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2em;
+}
+.logo{
+    position: relative;
+
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: -0.05em;
+    /* margin-left: 7em; */
+}
+.about{
+    position: relative;
+    
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20em;
+    max-width: 23em;
+}
+.about h3{
+    font-weight: 600;
+    font-size: 1em;
+}
+.about p{
+    font-weight: 400;
+    font-size: 1em;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10em;
+    justify-content: center;
+    /* margin-left: 5em; */
+    margin-top: 5em;
+}
+img{
+    width: 10em;
+}
+.image{
+    display: flex;
+}
+.image .role{
+    position: relative;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    margin-left: 0.5em;
+}
+.name{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+.two{
+    margin-top: 5em;
+}
+.five{
+    margin-top: 7em;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.7em;
+    color: #A9A9A9;
+
+    margin-top: 5em;
+    text-align: center;
+}
